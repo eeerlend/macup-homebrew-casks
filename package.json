@@ -1,7 +1,7 @@
 
 {
   "name": "macup-homebrew-casks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "macup module that installs homebrew casks",
   "main": "index.js",
   "scripts": {
