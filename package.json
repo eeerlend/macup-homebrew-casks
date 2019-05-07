@@ -17,8 +17,7 @@
     "macup-module"
   ],
   "dependencies": {
-    "fs-extra": "^7.0.1",
-    "macup-homebrew": "eeerlend/macup-homebrew"
+    "fs-extra": "^7.0.1"
   },
   "author": "Erlend Mongstad",
   "license": "ISC",
