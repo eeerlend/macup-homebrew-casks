@@ -1,0 +1,29 @@
+
+{
+  "name": "macup-homebrew-casks",
+  "version": "0.0.0",
+  "description": "macup module that installs homebrew casks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeerlend/macup-homebrew-casks.git"
+  },
+  "keywords": [
+    "macup",
+    "macup-module"
+  ],
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "macup-homebrew": "eeerlend/macup-homebrew"
+  },
+  "author": "Erlend Mongstad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eeerlend/macup-homebrew-casks/issues"
+  },
+  "homepage": "https://github.com/eeerlend/macup-homebrew-casks#readme"
+}
