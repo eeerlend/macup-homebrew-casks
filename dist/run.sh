@@ -17,4 +17,4 @@ for ((i=0; i<${#macup_homebrew_casks[@]}; ++i)); do
 done
 
 # Update outdated casks
-brew cask upgrade
+brew upgrade --cask
