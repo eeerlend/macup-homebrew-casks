@@ -1,11 +1,11 @@
 #!/bin/bash
 
 function install_or_upgrade_cask {
-  if brew cask ls --versions ${1} > /dev/null; then
+  if brew ls --cask --versions ${1} > /dev/null; then
 		report_from_package "${1} already installed."
 	else
 		report_from_package " Installing cask ${1}"
-		brew cask install ${1} --appdir=/Applications
+		brew install --cask ${1} --appdir=/Applications
 	fi
 }
 
